@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  --blue-950: #0D192C;
+  --blue-900: #15263F;
+  --blue-800: #2E405A;
+  --blue-500: #15263F;
+  --blue-500: ##8BACD9;
+  --cyan-400: #00FFF8;
+}
+
+body {
+  font-family: "Outfit", system-ui, -apple-system, sans-serif;
+  line-height: 1.25;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card {
+  max-width: 43.75rem;
+  padding: 24px;
+  background-color: var(--blue-800);
+}
