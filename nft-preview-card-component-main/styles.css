@@ -18,8 +18,6 @@ body {
   font-family: "Outfit", system-ui, -apple-system, sans-serif;
   line-height: 1.25;
   background-color: var(--blue-950);
-  display: grid;
-  place-items: center;
 }
 
 img {
@@ -38,6 +36,12 @@ button {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+main {
+  height: 100%;
+  display: grid;
+  place-items: center;
 }
 
 .card {
