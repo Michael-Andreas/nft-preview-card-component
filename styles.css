@@ -135,7 +135,7 @@ h3 {
 
 hr {
   border-top-width: 0;
-  border-color: #979797;
+  border-color: var(--blue-800);
 }
 
 .creator {
