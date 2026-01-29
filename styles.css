@@ -4,20 +4,21 @@
   box-sizing: border-box;
 }
 
-html,
-body {
-  height: 100%;
+html {
   --blue-950: #0D192C;
   --blue-900: #15263F;
   --blue-800: #2E405A;
   --blue-500: #8BACD9;
   --cyan-400: #00FFF8;
+  height: 100%;
 }
 
 body {
   font-family: "Outfit", system-ui, -apple-system, sans-serif;
   line-height: 1.25;
   background-color: var(--blue-950);
+  -webkit-font-smoothing: antialiased;
+  height: 100%;
 }
 
 img {
@@ -109,7 +110,7 @@ h3 {
 
 .header p {
   font-size: 1.125rem;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.45;
 }
 
