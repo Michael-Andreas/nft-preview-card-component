@@ -123,6 +123,11 @@ h3 {
 
 .price {
   color: var(--cyan-400);
+  font-weight: 600;
+}
+
+.time {
+  font-weight: 400;
 }
 
 .price,
@@ -130,7 +135,6 @@ h3 {
   display: flex;
   align-items: center;
   gap: 8px;
-  font-weight: 600;
 }
 
 hr {
@@ -142,6 +146,7 @@ hr {
   display: flex;
   align-items: center;
   gap: 16px;
+  font-weight: 400;
 }
 
 .creator img {
